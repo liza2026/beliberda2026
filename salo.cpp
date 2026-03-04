@@ -3,14 +3,14 @@
 #include <QTest>
 #include "newclass.h"
 
-newtest::newtest(QObject *parent)
+newtest::newtest(QObject *parent)  
     : QObject{parent}
 {}
 
 void newtest::testsynonm_data()
 {
     QTest::addColumn<QList<QStringList>>("Dictionary");
-    QTest::addColumn<QString>("word");
+    QTest::addColumn<QString>("llalal");
     QTest::addColumn<QString>("synonym");
 
     QTest::newRow("test1")<<QList<QStringList>{{"big", "large", "huge"}}<<"big"<<"large";
