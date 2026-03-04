@@ -7,7 +7,7 @@ newtest::newtest(QObject *parent)
     : QObject{parent}
 {}
 
-void newtest::testsynonm_data()
+void newtest::testsynonm_data() // jdjmfvfv
 {
     QTest::addColumn<QList<QStringList>>("Dictionary");
     QTest::addColumn<QString>("llalal");
