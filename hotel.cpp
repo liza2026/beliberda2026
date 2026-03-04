@@ -10,7 +10,7 @@ hotel::hotel()
     occupaid[2] = 2; // 2 для женского
 }
 
-bool hotel::operator==(const hotel &other) const {
+bool hotel::operator==(const hotel &other) const {// hello who read
     return numberRoom == other.numberRoom &&
            floor == other.floor &&
            klass == other.klass &&
