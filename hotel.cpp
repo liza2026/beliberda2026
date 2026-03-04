@@ -49,7 +49,7 @@ bool hotel::operator>=(const hotel &other) const {
     return !(*this < other);
 }
 
-hotel& hotel::operator=(const hotel &other) {
+hotel& hotel::operator=(const hotel &other) {// else change
     if (this != &other) {
         this->numberRoom = other.numberRoom;
         this->floor = other.floor;
