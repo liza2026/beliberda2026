@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
     // Вывести в выходной файл инфиксную запись выражения
 
-    return a.exec();
+    return a.exec(); // делаю второе изменение
 }
 
 
